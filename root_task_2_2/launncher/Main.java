@@ -13,8 +13,8 @@ import root_task_2_2.service.parser.exception.ParserException;
  *
  */
 public class Main {
-    public static final String GREETING = "Hello, user.\nEnter the path to file, please";
-    public static final String RESULT = "After building document we have this result: ";
+    private static final String GREETING = "Hello, user.\nEnter the path to file, please";
+    private static final String RESULT = "After building document we have this result: ";
 
     public static void main(String[] args) throws ParserException {
 
@@ -45,5 +45,4 @@ public class Main {
     }
 }
 
-// C:\\Users\\user\\IdeaProjects\\by\\epam\\2.2.OwnParser\\src\\root_task_2_2\\source\\xml\\Menu_XML.xml
 
