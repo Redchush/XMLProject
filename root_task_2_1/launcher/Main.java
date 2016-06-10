@@ -8,8 +8,8 @@ import root_task_2_1.parser_xerces.MenuParser;
 import java.io.IOException;
 
 public class Main {
-    public static final String GREETING = "Hello, user.\nEnter the path to file, please";
-    public static final String RESULT = "After building document we have this result: ";
+    private static final String GREETING = "Hello, user.\nEnter the path to file, please";
+    private static final String RESULT = "After building document we have this result: ";
 
     public static void main(String[] args) throws IOException, SAXException {
 
